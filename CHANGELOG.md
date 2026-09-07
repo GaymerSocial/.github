@@ -2,6 +2,11 @@
 
 All notable changes to this repo are documented here.
 
+## v0.2.0
+
+### Added
+- `profile/README.md` — the public GaymerSocial org profile page (rendered at github.com/GaymerSocial), carrying the Gaymer.Social/Gaymer.Coffee discontinuation notice and a link to gaymer.social
+
 ## v0.1.0
 
 ### Added
