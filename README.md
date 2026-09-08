@@ -17,3 +17,8 @@ Questions about the org or its repos: see [gaymer.social](https://gaymer.social)
 ## License
 
 Copyright &copy; Stux.Group. See [LICENSE](LICENSE) if present, or contact the org for terms.
+
+---
+
+*Built & Maintained by <img src="https://github.com/GaymerSocial.png" height="14" alt="Gaymer.Social" valign="middle"> [Gaymer.Social](https://github.com/GaymerSocial), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).    
+Gaymer.Social is a part of the <img src="https://media.stux.group/global/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group brand of businesses.*

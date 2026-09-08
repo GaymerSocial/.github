@@ -9,3 +9,8 @@ Gaymer.Social and Gaymer.Coffee â€” our Mastodon instances for LGBTQ+ gaymers â€
 See **[gaymer.social](https://gaymer.social)** for the full discontinuation notice.
 
 This organization's repos are kept for historical/archival purposes.
+
+---
+
+*Built & Maintained by <img src="https://github.com/GaymerSocial.png" height="14" alt="Gaymer.Social" valign="middle"> [Gaymer.Social](https://github.com/GaymerSocial), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).    
+Gaymer.Social is a part of the <img src="https://media.stux.group/global/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group brand of businesses.*
