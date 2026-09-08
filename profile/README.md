@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GaymerSocial/.github/main/assets/logo.png" width="300" alt="Gaymer.Social">
+  <img src="https://global.media.gaymer.social/logo.png" width="300" alt="Gaymer.Social">
 </p>
 
 ### Gaymer.Social and Gaymer.Coffee have been discontinued

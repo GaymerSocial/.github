@@ -2,6 +2,11 @@
 
 All notable changes to this repo are documented here.
 
+## v1.0.2
+
+### Changed
+- `assets/logo.png`/`assets/icon.png` moved from being vendored locally in this repo to the shared CDN at `https://global.media.gaymer.social/logo.png` / `/icon.png` (the same file was previously duplicated across all four GaymerSocial repos) — `README.md` and `profile/README.md`'s header logo references (the latter previously a `raw.githubusercontent.com` link, since org profile READMEs can't use relative paths) were updated accordingly
+
 ## v1.0.1
 
 ### Changed
