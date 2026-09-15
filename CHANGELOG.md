@@ -2,6 +2,11 @@
 
 All notable changes to this repo are documented here.
 
+## v1.0.3
+
+### Fixed
+- `README.md` and `profile/README.md`'s Stux.Group footer icon reference had a duplicated `/global/` path segment (`https://global.media.stux.group/global/icon.png`), a 404 — corrected to `https://global.media.stux.group/icon.png`
+
 ## v1.0.2
 
 ### Changed
