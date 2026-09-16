@@ -2,6 +2,11 @@
 
 All notable changes to this repo are documented here.
 
+## v1.0.6
+
+### Fixed
+- `README.md`'s copyright line named `Stux.Group` (a brand, not a legal entity) — corrected to `Stux Group Ltd`.
+
 ## v1.0.5
 
 ### Added

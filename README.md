@@ -16,7 +16,7 @@ Questions about the org or its repos: see [gaymer.social](https://gaymer.social)
 
 ## License
 
-Copyright &copy; Stux.Group. See [LICENSE](LICENSE) if present, or contact the org for terms.
+Copyright &copy; Stux Group Ltd. See [LICENSE](LICENSE) if present, or contact the org for terms.
 
 ---
 
