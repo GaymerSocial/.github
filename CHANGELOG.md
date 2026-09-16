@@ -2,6 +2,11 @@
 
 All notable changes to this repo are documented here.
 
+## v1.0.5
+
+### Added
+- Bluesky and LinkedIn badges (`bsky.app/profile/stux.group`, `linkedin.com/company/stuxgroup`) in a new "Connect with Us!" section in `profile/README.md`, alongside a GitHub followers badge.
+
 ## v1.0.4
 
 ### Changed
