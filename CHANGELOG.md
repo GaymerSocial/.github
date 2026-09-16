@@ -2,6 +2,11 @@
 
 All notable changes to this repo are documented here.
 
+## v1.0.4
+
+### Changed
+- `CONTRIBUTING.md`'s "is a Stux.Group project" line now reads "is a Stux.Group Service", linking to `https://services.stux.group`.
+
 ## v1.0.3
 
 ### Fixed
