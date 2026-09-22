@@ -2,6 +2,15 @@
 
 All notable changes to this repo are documented here.
 
+## v1.0.7
+
+### Added
+- `generateMetrics.yml` workflow, matching every sibling org's `.github` repo — was missing entirely here, leaving `GaymerSocial/.github/metrics/stats.svg` broken wherever it's embedded (including on StuxGroup's own profile README family grid).
+- An "Our Activity" `stats.svg` embed in `profile/README.md`, matching the per-org pattern used elsewhere (e.g. Stuxedo's profile README).
+
+### Note
+- The workflow needs an org-level `METRICS_TOKEN` Actions secret to actually run — every sibling org has one, but GaymerSocial's org currently has zero secrets configured. This needs to be added manually via GitHub org settings (Settings → Secrets and variables → Actions) before the workflow will succeed.
+
 ## v1.0.6
 
 ### Fixed
