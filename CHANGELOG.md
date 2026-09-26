@@ -2,6 +2,12 @@
 
 All notable changes to this repo are documented here.
 
+## v1.0.8
+
+### Added
+- GitHub Actions CI (`.github/workflows/ci.yml`) checking on every push and pull request against `main` that the key repo files exist, workflow YAML is valid, and `VERSION.md` has a matching `CHANGELOG.md` release heading
+- Release workflow (`.github/workflows/release.yml`) that publishes a GitHub Release whenever `commit.sh`'s `vX.Y.Z` tag is pushed, using the matching `CHANGELOG.md` section as the notes
+
 ## v1.0.7
 
 ### Added

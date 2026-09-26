@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  docs:
+    name: Repo checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Key files exist
+        run: |
+          set -euo pipefail
+          for f in profile/README.md README.md CHANGELOG.md VERSION.md CONTRIBUTING.md commit.sh commit.bat; do
+            if [ ! -f "$f" ]; then echo "::error::Missing $f"; exit 1; fi
+          done
+      - name: Workflow YAML is valid
+        run: |
+          set -euo pipefail
+          for f in .github/workflows/*.yml; do yq e 'true' "$f" > /dev/null && echo "ok $f"; done
+
+  version:
+    name: Version consistency
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: VERSION.md has a matching CHANGELOG.md release heading
+        run: |
+          set -euo pipefail
+          if [ ! -f VERSION.md ]; then echo "::error::VERSION.md is missing"; exit 1; fi
+          V="$(tr -d '[:space:]' < VERSION.md)"
+          if ! printf '%s' "$V" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+$'; then
+            echo "::error::VERSION.md is not MAJOR.MINOR.PATCH: $V"; exit 1
+          fi
+          if ! grep -Eq "^## \[?v?${V//./\.}\]?([[:space:]]|$)" CHANGELOG.md; then
+            echo "::error::CHANGELOG.md has no release heading for $V"; exit 1
+          fi
+          echo "VERSION.md ($V) has a matching CHANGELOG.md entry"
