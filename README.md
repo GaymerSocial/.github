@@ -14,6 +14,10 @@ Files placed in this repo (e.g. `profile/README.md`, issue/PR templates, a defau
 
 Questions about the org or its repos: see [gaymer.social](https://gaymer.social) for the discontinuation notice and any contact details.
 
+## Versioning
+
+This project uses [Date Versioning](https://datevers.ing): each release is numbered by its UTC release date as `YY.MM.DD` (for example `26.10.23`), with `-1`, `-2`… for later releases the same day. See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
+
 ## License
 
 Copyright &copy; Stux Group Ltd. See [LICENSE](LICENSE) if present, or contact the org for terms.
